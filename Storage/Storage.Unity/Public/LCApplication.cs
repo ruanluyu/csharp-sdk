@@ -34,7 +34,7 @@ namespace LeanCloud {
 
             LCStorage.Initialize(appId, appKey, server, masterKey);
 
-            LCCore.PersistenceController = new PersistenceController(new UnityPersistence());
+            LCCore.PersistenceController = new PersistenceController(null);
         }
     }
 }
